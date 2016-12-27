@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/run.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/run.js"></script>
+    <script src="js/hitPix.js"></script>
+</head>
+<body>
+<audio src="audio/play.mp3" class="runA" loop></audio>
+<audio src="audio/shop1.mp3" class="waitA" loop></audio>
+<audio src="audio/asd.mp3" class="jumpA"></audio>
+<audio src="audio/electric.wav" class="hitA"></audio>
+<audio src="audio/laser.wav" class="fireA"></audio>
+<audio src="audio/thuacuoc.wav" class="overA"></audio>
+<div class="start text-center">
+    <div class="logo"></div>
+    <h1>地下冒险</h1>
+    <button type="button" class="btn btn-primary">开始游戏</button>
+</div>
+<div class="cover"></div>
+<canvas></canvas>
+<img src="img/man1.png" alt="" class="run" hidden>
+<img src="img/man2.png" alt="" class="run" hidden>
+<img src="img/man3.png" alt="" class="run" hidden>
+<img src="img/man4.png" alt="" class="run" hidden>
+<img src="img/man5.png" alt="" class="run" hidden>
+<img src="img/man6.png" alt="" class="run" hidden>
+<img src="img/man7.png" alt="" class="run" hidden>
+<img src="img/man8.png" alt="" class="run" hidden>
+
+
+<img src="img/jump.png" alt="" class="jump" hidden>
+
+<img src="img/pet2.png" alt="" hidden class="hinder">
+<img src="img/pet3.png" alt="" hidden class="hinder">
+<img src="img/pet4.png" alt="" hidden class="hinder">
+<img src="img/pet5.png" alt="" hidden class="hinder">
+
+<img src="img/zidan.png" alt="" hidden class="zidan">
+
+
+<div class="scores-box">
+    得分:<span class="score">0</span>
+</div>
+<div class="life">
+    生命值：<span class="blood-box"><span class="blood"></span></span>
+</div>
+</body>
+</html>
